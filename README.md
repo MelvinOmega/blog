@@ -2,7 +2,7 @@
 
 ## Author 
 
-* Irene Kasiva.
+* Melvin Omega
 
 ## Description
 
@@ -46,10 +46,10 @@ https://mypipblog.herokuapp.com/
 
 ### Contact Info:
 
-irenekasiva75@gmail.com
+melvinomega151@gmail.com
 
 ## License
 
 this software license under MIT License
 
-Copyright (c) 2020 irenekasiva
+Copyright (c) 2020 MelvinOmega

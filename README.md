@@ -31,6 +31,7 @@ You Require to install
 * Clone repository to your computer
 * Install python
 * Create virtual environment
+* ./start.sh in your terminal
 
 
 ## Technology Used

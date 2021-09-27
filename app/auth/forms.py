@@ -9,8 +9,8 @@ from ..models import User
 class RegistrationForm(FlaskForm):
     username = StringField('Username',
                         validators=[DataRequired(), Length(min=5, max=20)])
-    firstname = StringField('Enter your first name',validators = [DataRequired()])
-    lastname = StringField('Enter your last name',validators = [DataRequired()])
+    firstname = StringField('Enter your First Name',validators = [DataRequired()])
+    lastname = StringField('Enter your Last Name',validators = [DataRequired()])
     email = StringField('Email',
                         validators=[DataRequired(), Email()])
     password = PasswordField('Password', validators=[DataRequired()])
@@ -21,7 +21,7 @@ class RegistrationForm(FlaskForm):
     def validate_username(self, username):
         user = User.query.filter_by(username=username.data).first()
         if user:
-            raise ValidationError('That username is taken. Please choose a different one.')
+            raise ValidationError('The username is already taken. Please choose a different one.')
 
     def validate_email(self, email):
         user = User.query.filter_by(email=email.data).first()

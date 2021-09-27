@@ -1,4 +1,4 @@
-# Blogs
+# blog
 
 ## Author 
 
@@ -6,8 +6,7 @@
 
 ## Description
 
-This is an application that allows one to sign in and views other users blogs and also write a blog.
-one can also comment and like or dislikes a blog 
+ A personal blogging website where you can create and share your opinions and other users can read and comment on them. 
 
 ## BDD
 
@@ -22,7 +21,7 @@ one can also comment and like or dislikes a blog
 
 You Require to install
 
-* Python3.8
+* Python3.9
 * Flask
 * Pip
 * Virtual environment
@@ -36,13 +35,13 @@ You Require to install
 
 ## Technology Used
 
-* Python 3.6
+* Python 3.9
 * Bootstrap 
 * Flask
 
 ## Live Link
 
-https://mypipblog.herokuapp.com/
+<!-- https://mypipblog.herokuapp.com/ -->
 
 ### Contact Info:
 

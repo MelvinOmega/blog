@@ -52,7 +52,7 @@
     </div>
 
     <div class="card" style="margin-top: 20px">
-        <h4 class="card-header">Comments</h4>
+        <h4 class="card-header">Leave a Comment</h4>
         
         {% if current_user.is_authenticated %}
             {{ wtf.quick_form(comment_form) }}

@@ -2,7 +2,6 @@ import os
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:melvin@localhost/blog'
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     QUOTES_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
     MAIL_SERVER = 'smtp.googlemail.com'
@@ -13,9 +12,11 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI =os.environ.get('DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI =os.environ.get('DB_URL')
 
 class DevConfig(Config):
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:melvin@localhost/blog'
+
 
     DEBUG = True   
 

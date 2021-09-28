@@ -41,8 +41,8 @@ You Require to install
 * Flask
 
 ## Live Link
+https://blog-melvin.herokuapp.com/
 
-<!-- https://mypipblog.herokuapp.com/ -->
 
 ### Contact Info:
 
